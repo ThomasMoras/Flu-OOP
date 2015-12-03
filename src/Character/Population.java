@@ -9,21 +9,10 @@ import java.util.ArrayList;
  */
 public class Population {
     private ArrayList<Population> populationList;
-    private State state;
 
-    public Population(State state){
-        this.state = state;
+    public Population() {
+
     }
 
-    public void SetSick() {
-        this.state = State.SICK;
-    }
 
-    public void ContagiousSick() {
-        this.state = State.CONTAGIOUS;
-    }
-
-    public void SetDead() {
-        this.state = State.DEAD;
-    }
 }
