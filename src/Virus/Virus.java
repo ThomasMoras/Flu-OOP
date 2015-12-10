@@ -3,5 +3,5 @@ package Virus;
 /**
  * Created by user on 26/11/15.
  */
-abstract class Virus {
+public class Virus {
 }
